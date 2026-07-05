@@ -1,0 +1,66 @@
+请基于评估器的结构化问题清单，对传播链条进行最小必要修改。严格按"输出格式（仅JSON）"返回，除JSON外不要输出其他内容。
+
+## 原始传播链条 (propagation_chains)
+```json
+{original_chains}
+```
+
+## 评估器结果 (evaluator_result)
+```json
+{evaluation}
+```
+
+## 因果关系分析报告 (causal_analysis)
+```
+{causal_analysis}
+```
+
+## 指标运维状态分析报告 (metric_analysis)
+```json
+{metric_analysis}
+```
+
+---
+
+**修正原则**：
+
+1. **最小修改原则**：
+   - 只修改被 issue 指向的位置
+   - 未标记位置必须保持不变
+   - 不能重写整条链
+
+2. **严格执行 edit_action**：
+   - 优先处理 hard_violations
+   - 再处理 soft_issues
+   - 严格按照 evaluator_result 中的 edit_action 执行
+   - 不能自行新增与 edit_action 无关的改动
+
+3. **因果质量优先**：
+   - 不为叙述自然就加入弱因果节点
+   - 不为补链条而牺牲因果支撑
+   - 优先使用 PCMCI 中排名靠前、出度高的指标
+
+4. **保守原则**：
+   - 如果 candidate_metrics 为空，不能自行猜测不存在的指标
+   - 如果没有足够证据支持某个修改，宁可保留较小修改
+   - 修改失败时，必须在 failed_actions 中说明原因
+
+5. **层级传播合理性**：
+   - 插入中间步骤时，优先选择 bridge 节点
+   - 避免跨层直接跳跃（dependency→inbound 需中间层）
+   - 保持传播方向合理（避免 inbound→dependency）
+
+6. **只使用实际存在的指标**：
+   - 所有节点必须来自 metric_analysis
+   - 不能编造或推测不存在的指标
+   - 优先使用 observed=true 且有充分 evidence_ref 的指标
+
+**执行步骤**：
+1. 读取 evaluator_result 中的 hard_violations 和 soft_issues
+2. 对每个 issue，提取 location 和 edit_action
+3. 按 edit_action 执行局部修改（insert_step, delete_step, replace_edge, replace_start_node, shorten_chain, clarify_relation）
+4. 输出 edit_plan 说明每个修改的具体操作
+5. 输出 refined_chains 包含修改后的链条
+6. 如有修改失败，在 failed_actions 中说明原因
+
+请严格遵循 system prompt 中的修改规则和输出格式。

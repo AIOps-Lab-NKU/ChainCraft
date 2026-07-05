@@ -1,0 +1,23 @@
+请基于以下数据，对“给定故障原因”进行验证并输出“异常指标列表+可解释的故障传播链条”。严格按“输出格式（仅JSON）”返回，除JSON外不要输出其他内容。
+
+给定的根本原因 (given_root_cause)：
+```json
+[
+    {{
+        "type": "{given_root_cause}",
+        "hypothesis": "{hypothesis}",
+        "suspected_component": "{suspected_component}"
+    }}
+]
+```
+
+指标运维状态分析报告 (metric_analysis_report)：
+{metric_analysis}
+
+算法发现的因果关系分析报告 (causal_analysis)：
+{causal_analysis}
+
+备注：
+
+- 方向与强度只能依据metric_analysis数值与符号；缺失时以“出现异常/同刻/先后”描述，不得杜撰。
+- 传播链条每一跳尽量使用观测节点（observed=true）；必要推断节点（inferred=true）须说明依据并尽量邻接观测证据。

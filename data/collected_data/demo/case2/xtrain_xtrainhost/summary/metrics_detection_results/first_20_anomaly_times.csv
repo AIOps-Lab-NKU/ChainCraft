@@ -1,0 +1,19 @@
+rank,metric,first_anomaly_time,event_start_time,offset_from_event_start_minutes,offset_from_event_start_seconds
+1,middleware_hsf_provider_success_rate,2025-08-10 10:47:00,2025-08-10 10:47:00,0.0,0.0
+2,pod_cpu_limit_usage,2025-08-10 10:47:00,2025-08-10 10:47:00,0.0,0.0
+3,middleware_hsf_provider_qps,2025-08-10 10:48:00,2025-08-10 10:47:00,1.0,60.0
+4,middleware_hsf_consumer_qps,2025-08-10 10:50:00,2025-08-10 10:47:00,3.0,180.0
+5,middleware_hsf_provider_rt,2025-08-10 10:51:00,2025-08-10 10:47:00,4.0,240.0
+6,middleware_hsf_provider_biz_pool_usage,2025-08-10 10:51:00,2025-08-10 10:47:00,4.0,240.0
+7,middleware_hsf_consumer_rt,2025-08-10 10:51:00,2025-08-10 10:47:00,4.0,240.0
+8,pod_nginx_qps,2025-08-10 10:52:00,2025-08-10 10:47:00,5.0,300.0
+9,middleware_tair_write_qps,2025-08-10 10:52:00,2025-08-10 10:47:00,5.0,300.0
+10,middleware_tair_read_qps,2025-08-10 10:52:00,2025-08-10 10:47:00,5.0,300.0
+11,pod_cpu_load_average_1m_util_limit_v2,2025-08-10 10:55:00,2025-08-10 10:47:00,8.0,480.0
+12,middleware_tair_write_rt,2025-08-10 11:25:00,2025-08-10 10:47:00,38.0,2280.0
+13,middleware_tair_read_success_rate,2025-08-10 11:28:00,2025-08-10 10:47:00,41.0,2460.0
+14,jvm_gc_fgc_time,2025-08-10 11:31:00,2025-08-10 10:47:00,44.0,2640.0
+15,middleware_metaq_send_rt,2025-08-10 11:31:00,2025-08-10 10:47:00,44.0,2640.0
+16,middleware_tair_read_rt,2025-08-10 11:31:00,2025-08-10 10:47:00,44.0,2640.0
+17,jvm_gc_fgc_count,2025-08-10 11:31:00,2025-08-10 10:47:00,44.0,2640.0
+18,middleware_hsf_online,2025-08-10 11:43:00,2025-08-10 10:47:00,56.0,3360.0

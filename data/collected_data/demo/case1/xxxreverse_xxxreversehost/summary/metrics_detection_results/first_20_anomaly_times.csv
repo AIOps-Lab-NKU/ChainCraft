@@ -1,0 +1,12 @@
+rank,metric,first_anomaly_time,event_start_time,offset_from_event_start_minutes,offset_from_event_start_seconds
+1,middleware_tddl_write_table_rt,2025-05-15 16:37:00,2025-05-15 16:33:00,4.0,240.0
+2,middleware_hsf_provider_qps,2025-05-15 17:03:00,2025-05-15 16:33:00,30.0,1800.0
+3,pod_cpu_limit_usage,2025-05-15 17:19:00,2025-05-15 16:33:00,46.0,2760.0
+4,pod_cpu_load_average_1m_util_limit_v2,2025-05-15 17:20:00,2025-05-15 16:33:00,47.0,2820.0
+5,middleware_hsf_provider_rt,2025-05-15 17:23:00,2025-05-15 16:33:00,50.0,3000.0
+6,middleware_hsf_provider_biz_pool_usage,2025-05-15 17:23:00,2025-05-15 16:33:00,50.0,3000.0
+7,middleware_tddl_read_table_rt,2025-05-15 17:23:00,2025-05-15 16:33:00,50.0,3000.0
+8,middleware_tddl_read_table_success_rate,2025-05-15 17:23:00,2025-05-15 16:33:00,50.0,3000.0
+9,middleware_hsf_provider_success_rate,2025-05-15 17:23:00,2025-05-15 16:33:00,50.0,3000.0
+10,middleware_tair_read_qps,2025-05-15 17:23:00,2025-05-15 16:33:00,50.0,3000.0
+11,middleware_hsf_consumer_rt,2025-05-15 17:24:00,2025-05-15 16:33:00,51.0,3060.0

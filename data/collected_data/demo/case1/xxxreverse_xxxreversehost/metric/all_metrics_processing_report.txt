@@ -1,0 +1,50 @@
+Data Processing Report
+==================================================
+
+Processing date: 2026-02-26 22:19:32.238863
+Output file: all_metrics.csv
+
+Input files processed: 0
+Final dataset shape: (4335, 36)
+Time range: 2025-05-12 09:33:00 to 2025-05-15 09:47:00
+Missing data threshold: 20.0%
+
+Columns kept: 35
+Columns dropped: 0
+
+Kept columns:
+  - pod_event_oom
+  - middleware_hsf_provider_rt
+  - middleware_metaq_send_success_rate
+  - middleware_hsf_provider_biz_pool_usage
+  - middleware_tddl_read_table_rt
+  - middleware_tddl_read_table_success_rate
+  - middleware_tair_read_hit_rate
+  - pod_nginx_rt
+  - middleware_tddl_write_table_success_rate
+  - pod_nginx_qps
+  - middleware_metaq_receive_success_rate
+  - middleware_tair_write_success_rate
+  - middleware_notify_send_qps
+  - middleware_metaq_receive_rt
+  - middleware_hsf_consumer_rt
+  - middleware_tddl_write_table_rt
+  - middleware_hsf_consumer_success_rate
+  - middleware_notify_receive_qps
+  - middleware_hsf_online
+  - middleware_tair_write_qps
+  - jvm_gc_fgc_time
+  - middleware_hsf_consumer_qps
+  - middleware_hsf_provider_success_rate
+  - pod_cpu_load_average_1m_util_limit_v2
+  - middleware_notify_receive_rt
+  - middleware_tair_read_qps
+  - middleware_tair_write_rt
+  - middleware_metaq_send_rt
+  - middleware_tair_read_rt
+  - middleware_hsf_provider_qps
+  - middleware_tair_read_success_rate
+  - pod_network_retran_util
+  - middleware_notify_receive_success_rate
+  - jvm_gc_fgc_count
+  - pod_cpu_limit_usage

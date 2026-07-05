@@ -1,0 +1,31 @@
+请评估以下故障传播链条，识别结构性问题并输出可执行的编辑建议。严格按"输出格式（仅JSON）"返回，除JSON外不要输出其他内容。
+
+## 待评估的传播链条 (propagation_chains)
+```json
+{propagation_chains}
+```
+
+## 因果关系分析报告 (causal_analysis)
+```
+{causal_analysis}
+```
+
+## 指标运维状态分析报告 (metric_analysis)
+```json
+{metric_analysis}
+```
+
+---
+
+**评估要点**：
+
+1. **因果质量优先**：短链+强因果 优于 长链+弱因果
+2. **问题分类**：
+   - hard_violations: reverse_causality, unsupported_edge, invalid_root_start, severe_layer_violation
+   - soft_issues: missing_intermediate_step, weak_observation_support, mild_layer_skip, weak_tail_extension, unclear_mechanism
+3. **编辑动作**：insert_step, delete_step, replace_edge, replace_start_node, shorten_chain, clarify_relation
+4. **层级合理性**：优先检查 dependency→inbound 跳层、inbound→dependency 反向传播
+5. **精确定位**：每个问题必须标注 location (chain_id, from_step, to_step)
+6. **可执行建议**：每个问题必须包含具体的 edit_action 和 constraint
+
+请严格遵循system prompt中定义的问题类型和输出格式。

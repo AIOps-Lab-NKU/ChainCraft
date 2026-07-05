@@ -1,0 +1,10 @@
+用户输入模板 (User Prompt)
+
+请基于以下“当前事件快照”和“历史案例参考”，执行风险评估，并严格按照系统指令中的 JSON 格式返回你的决策。
+
+1. 当前事件快照 (current_event_snapshot)
+{current_event_json}
+
+
+2. 历史案例参考 (historical_case_references)
+{retrieved_historical_cases_json}

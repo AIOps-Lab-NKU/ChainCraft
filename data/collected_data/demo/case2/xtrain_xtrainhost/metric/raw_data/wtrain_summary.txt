@@ -1,0 +1,251 @@
+应用名称: wtrain
+时间范围: 2025-08-07 11:47:00 - 2025-08-10 11:49:00
+总插件数: 0
+成功处理的插件数: 0
+成功处理的机器指标数: 25
+
+=== 插件信息 ===
+
+=== 机器指标信息 ===
+
+指标名称: cms.acs_rds_inner_dashboard.CpuUsage&cms.acs_rds_inner_dashboard.CpuUsage
+  错误: No data found
+
+指标名称: cms.acs_rds_inner_dashboard.MySQL_ThreadsRunning&cms.acs_rds_inner_dashboard.MySQL_ThreadsRunning
+  错误: No data found
+
+指标名称: cms.acs_rds_dashboard.MySQL_SlowQueries&cms.acs_rds_dashboard.MySQL_SlowQueries
+  错误: No data found
+
+指标名称: middleware_tddl_read_table_rt&middleware_tddl_read_table_rt
+  错误: No data found
+
+指标名称: cms.acs_rds_dashboard.CpuUsage&cms.acs_rds_dashboard.CpuUsage
+  错误: No data found
+
+指标名称: middleware_tddl_write_table_rt&middleware_tddl_write_table_rt
+  错误: No data found
+
+指标名称: cms.acs_rds_dashboard.ConnectionUsage&cms.acs_rds_dashboard.ConnectionUsage
+  错误: No data found
+
+指标名称: cms.acs_rds_dashboard.MySQL_ThreadsRunning&cms.acs_rds_dashboard.MySQL_ThreadsRunning
+  错误: No data found
+
+指标名称: pod_cpu_limit_usage&pod_cpu_limit_usage
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: pod_nginx_rt&pod_nginx_rt
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: appmonitor_exporter.ExternalDetect_tcp.probe_tcp_status&appmonitor_exporter.ExternalDetect_tcp.probe_tcp_status
+  错误: No data found
+
+指标名称: appmonitor_exporter.ExternalDetect_http.probe_http_status&appmonitor_exporter.ExternalDetect_http.probe_http_status
+  错误: No data found
+
+指标名称: middleware_tddl_read_table_success_rate&middleware_tddl_read_table_success_rate
+  错误: No data found
+
+指标名称: pod_nginx_qps&pod_nginx_qps
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: middleware_tddl_write_table_success_rate&middleware_tddl_write_table_success_rate
+  错误: No data found
+
+指标名称: pod_cpu_load_average_1m_util_limit_v2&pod_cpu_load_average_1m_util_limit_v2
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: pod_network_retran_util&pod_network_retran_util
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: jvm_gc_fgc_time&jvm_gc_fgc_time
+  时间戳数量: 4314
+  原始记录数: 4314
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: middleware_tair_read_rt&middleware_tair_read_rt
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: jvm_gc_fgc_count&jvm_gc_fgc_count
+  时间戳数量: 4314
+  原始记录数: 4314
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: middleware_tair_read_hit_rate&middleware_tair_read_hit_rate
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: pod_event_oom&pod_event_oom
+  时间戳数量: 72
+  原始记录数: 72
+  时间范围: 1754539200000 - 1754794800000
+
+指标名称: middleware_tair_write_rt&middleware_tair_write_rt
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: middleware_tair_write_qps&middleware_tair_write_qps
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: tiddo.tair.server.dataserver.ns.pf_put&tiddo.tair.server.dataserver.ns.pf_put
+  错误: No data found
+
+指标名称: tiddo.tair.server.dataserver.ns.put_qps&tiddo.tair.server.dataserver.ns.put_qps
+  错误: No data found
+
+指标名称: middleware_tair_read_qps&middleware_tair_read_qps
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: tiddo.tair.server.dataserver.ns.evict&tiddo.tair.server.dataserver.ns.evict
+  错误: No data found
+
+指标名称: tiddo.tair.server.dataserver.ns.quota&tiddo.tair.server.dataserver.ns.quota
+  错误: No data found
+
+指标名称: tiddo.tair.server.dataserver.ns.pf_get&tiddo.tair.server.dataserver.ns.pf_get
+  错误: No data found
+
+指标名称: tiddo.tair.server.dataserver.ns.get_qps&tiddo.tair.server.dataserver.ns.get_qps
+  错误: No data found
+
+指标名称: tiddo.tair.server.dataserver.ns.hotzone_get&tiddo.tair.server.dataserver.ns.hotzone_get
+  错误: No data found
+
+指标名称: tiddo.tair.server.dataserver.flowlimit.count&tiddo.tair.server.dataserver.flowlimit.count
+  错误: No data found
+
+指标名称: tiddo.tair.server.dataserver.ns.quota.ratio&tiddo.tair.server.dataserver.ns.quota.ratio
+  错误: No data found
+
+指标名称: tiddo.tair.server.dataserver.ns.hotzone_put&tiddo.tair.server.dataserver.ns.hotzone_put
+  错误: No data found
+
+指标名称: tiddo.tair.server.dataserver.ns.hit_rate&tiddo.tair.server.dataserver.ns.hit_rate
+  错误: No data found
+
+指标名称: middleware_tair_read_success_rate&middleware_tair_read_success_rate
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: tiddo.tair.server.dataserver.ns.datasize&tiddo.tair.server.dataserver.ns.datasize
+  错误: No data found
+
+指标名称: tiddo.tair.server.dataserver.ns.itemcount&tiddo.tair.server.dataserver.ns.itemcount
+  错误: No data found
+
+指标名称: middleware_tair_write_success_rate&middleware_tair_write_success_rate
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: tiddo.tair.server.dataserver.ns.pf_hit_rate&tiddo.tair.server.dataserver.ns.pf_hit_rate
+  错误: No data found
+
+指标名称: middleware_hsf_consumer_error_qps&middleware_hsf_consumer_error_qps
+  错误: No data found
+
+指标名称: middleware_hsf_provider_error_qps&middleware_hsf_provider_error_qps
+  错误: No data found
+
+指标名称: middleware_hsf_online&middleware_hsf_online
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: middleware_hsf_provider_biz_pool_usage&middleware_hsf_provider_biz_pool_usage
+  时间戳数量: 4320
+  原始记录数: 4320
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: middleware_hsf_provider_qps&middleware_hsf_provider_qps
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: middleware_hsf_provider_rt&middleware_hsf_provider_rt
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: middleware_metaq_clnt_receive_qps&middleware_metaq_clnt_receive_qps
+  错误: No data found
+
+指标名称: middleware_hsf_consumer_success_rate&middleware_hsf_consumer_success_rate
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: middleware_metaq_clnt_send_qps&middleware_metaq_clnt_send_qps
+  错误: No data found
+
+指标名称: middleware_metaq_send_rt&middleware_metaq_send_rt
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: middleware_metaq_send_success_rate&middleware_metaq_send_success_rate
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: middleware_metaq_receive_rt&middleware_metaq_receive_rt
+  错误: No data found
+
+指标名称: middleware_metaq_receive_success_rate&middleware_metaq_receive_success_rate
+  错误: No data found
+
+指标名称: app_error_cnt&app_error_cnt
+  错误: No data found
+
+指标名称: middleware_hsf_provider_success_rate&middleware_hsf_provider_success_rate
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: middleware_hsf_consumer_rt&middleware_hsf_consumer_rt
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: middleware_hsf_consumer_qps&middleware_hsf_consumer_qps
+  时间戳数量: 4323
+  原始记录数: 4323
+  时间范围: 1754538420000 - 1754797740000
+
+指标名称: middleware_notify_send_rt&middleware_notify_send_rt
+  错误: No data found
+
+指标名称: middleware_notify_send_success_rate&middleware_notify_send_success_rate
+  错误: No data found
+
+指标名称: middleware_notify_receive_rt&middleware_notify_receive_rt
+  错误: No data found
+
+指标名称: middleware_notify_receive_success_rate&middleware_notify_receive_success_rate
+  错误: No data found
+
+指标名称: middleware_notify_receive_qps&middleware_notify_receive_qps
+  错误: No data found
+
+指标名称: middleware_notify_send_qps&middleware_notify_send_qps
+  错误: No data found
